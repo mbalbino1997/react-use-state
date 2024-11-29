@@ -7,7 +7,7 @@ export default function () {
     return (
         <main>
             <div>
-                {languages.map(language => <button onClick={() => count !== language.id ? setCount(language.id) : setCount(0)} key={language.id}>{language.title}</button>)}
+                {languages.map(language => <button className={count === language.id && style.btn_active} onClick={() => count !== language.id ? setCount(language.id) : setCount(0)} key={language.id}>{language.title}</button>)}
             </div>
             <div>
                 {languages.map(language => count === language.id && < div key={language.id} ><h3>{language.title}</h3><p>{language.description}</p></div>)}
