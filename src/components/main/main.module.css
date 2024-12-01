@@ -3,23 +3,3 @@
     justify-content: center;
     gap: 30px;
 }
-
-.btn {
-    color: whitesmoke;
-    font-weight: bold;
-    display: block;
-    border: none;
-    padding: 15px 20px;
-    background-color: rgba(108, 77, 77, 0.601);
-    border-radius: 8px;
-    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
-    transition: box-shadow 0.3s ease;
-}
-
-.btn:hover {
-    box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.3);
-}
-
-.btn_active {
-    background-color: rgba(79, 57, 57, 0.778);
-}
