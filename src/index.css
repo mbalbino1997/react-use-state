@@ -6,6 +6,8 @@
 
 h1 {
   text-align: center;
-  background-color: lightblue;
+  color: rgb(232, 187, 132);
+  background-color: rgb(215, 235, 241);
   padding: 20px;
+  margin-bottom: 100px;
 }
