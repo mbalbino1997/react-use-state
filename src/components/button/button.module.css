@@ -2,6 +2,7 @@
     color: whitesmoke;
     font-weight: bold;
     display: block;
+    cursor: pointer;
     border: none;
     padding: 15px 20px;
     background-color: rgba(108, 77, 77, 0.601);
